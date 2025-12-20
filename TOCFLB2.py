@@ -1,3 +1,6 @@
+# tocfl.edu.tw/tocfl/assets/files/rd_mock_test_BandB_t.pdf
+# Band 2
+
 import os
 from termcolor import colored
 from PIL import Image
