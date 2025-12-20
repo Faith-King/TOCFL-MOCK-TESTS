@@ -1,3 +1,6 @@
+# source: https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock_test_BandA_en_t.pdf
+# Mock Test: TOCFL Reading (Vol.1) Band A
+
 import os
 from termcolor import colored
 from PIL import Image
