@@ -555,7 +555,8 @@ questions = [
         "choices": {
             "A": "",
             "B": "",
-            "C": ""
+            "C": "",
+            "D": ""
         },
         "answer": "C"
     },
@@ -567,7 +568,8 @@ questions = [
         "choices": {
             "A": "",
             "B": "",
-            "C": ""
+            "C": "",
+            "D": ""
         },
         "answer": "A"
     },
@@ -579,7 +581,8 @@ questions = [
         "choices": {
             "A": "",
             "B": "",
-            "C": ""
+            "C": "",
+            "D": ""
         },
         "answer": "A"
     },
@@ -591,7 +594,8 @@ questions = [
         "choices": {
             "A": "",
             "B": "",
-            "C": ""
+            "C": "",
+            "D": ""
         },
         "answer": "D"
     },
@@ -603,7 +607,8 @@ questions = [
         "choices": {
             "A": "",
             "B": "",
-            "C": ""
+            "C": "",
+            "D": ""
         },
         "answer": "A"
     },
@@ -615,7 +620,8 @@ questions = [
         "choices": {
             "A": "",
             "B": "",
-            "C": ""
+            "C": "",
+            "D": ""
         },
         "answer": "C"
     },
@@ -657,11 +663,18 @@ for q in questions:
         print(f"  ({k}) {v}")
 
     # Answer input
+    options = "/".join(q["choices"].keys())
+
     while True:
-        user_answer = input(colored("\n👉 Your answer (A/B/C): ", "cyan")).strip().upper()
+        user_answer = input(
+            colored(f"\n👉 Your answer ({options}): ", "cyan")
+        ).strip().upper()
+
         if user_answer in q["choices"]:
             break
-        print(colored("⚠️ Please enter A, B, or C only.", "yellow"))
+
+        print(colored(f"⚠️ Please enter {options} only.", "yellow"))
+
 
     # STOP AUDIO IMMEDIATELY
     audio_process.terminate()
