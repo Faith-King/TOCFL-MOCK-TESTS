@@ -15,31 +15,31 @@ Make sure your project folder contains the following:
 
 Make sure your files are like this:
 
-  TOCFL/
+    TOCFL/
   
-  │
+    │
   
-  ├─ TOCFLrBav2.py
+    ├─ TOCFLrBav2.py
   
-  ├─ images2/
+    ├─ images2/
   
-  │   ├─ 1.png
+    │   ├─ 1.png
   
-  │   ├─ 2.png
+    │   ├─ 2.png
   
-  │   ├─ 31-35.png
+    │   ├─ 31-35.png
   
-  │   └─ ...
+    │   └─ ...
   
-  │
+    │
   
-  └─ audio/            # (if listening tests are included)
+    └─ audio/            # (if listening tests are included)
   
-      ├─ 01.mp3
+        ├─ 01.mp3
       
-      ├─ 02.mp3
+        ├─ 02.mp3
       
-      └─ ...
+        └─ ...
 
 This "Mock Tests" works in:
 > ✅ macOS (recommended)
