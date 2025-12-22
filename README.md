@@ -1,14 +1,18 @@
-This is the UPGEN!
+# This is the UPGEN!
 
 So basically Generator, building this project takes a lot of time (If I do it manually), so I decided to make an AUTOMATED Machinary to solve this problem. The logic behind it is basically put a PDF file (question and answer), and audio folder that you downloaded combine them into one folder:
 
 TOCFL/
+
 ├─ questions.pdf
+
 ├─ answers.pdf
+
 ├─ audio (folder)
+
 ├─ UPGEN.py
 
-Then run the `UPGEN.py` this will save you bunch of time from copy pasting 1 by 1 each question into the format of:
+### Then run the `UPGEN.py` this will save you bunch of time from copy pasting 1 by 1 each question into the format of:
 
 ```
 {
