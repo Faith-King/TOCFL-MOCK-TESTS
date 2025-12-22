@@ -1,24 +1,17 @@
 # Test of Chinese as a Foreign Language Listening Band A (Vol.1)
-# source: https://tocfl.edu.tw/tocfl/assets/files/ls_mock_test_BandB_t.pdf
 
-import os
 import subprocess
 from pathlib import Path
 from termcolor import colored
 from PIL import Image
 
-# -------------------------
-# Path setup (SAFE)
-# -------------------------
 
+# Path setup
 BASE_DIR = Path(__file__).parent
 AUDIO_DIR = BASE_DIR / "audio"
 IMAGE_DIR = BASE_DIR / "images"
 
-# -------------------------
 # Question Bank 
-# -------------------------
-
 questions = [
     {
         "id": 1,
@@ -557,7 +550,6 @@ questions = [
             "A": "",
             "B": "",
             "C": "",
-            "D": ""
         },
         "answer": "C"
     },
@@ -630,9 +622,7 @@ questions = [
 
 score = 0
 
-# -------------------------
 # Exam Loop
-# -------------------------
 for q in questions:
     print(colored(f"\n🎧 Listening Question {q['id']}", "cyan"))
 
@@ -686,3 +676,5 @@ for q in questions:
         score += 1
     else:
         print(colored(f"❌ Wrong: Correct answer [{q['answer']}]", "red"))
+
+print(colored(f"\nFinal Score: {score} / {len(questions)}", "magenta"))
