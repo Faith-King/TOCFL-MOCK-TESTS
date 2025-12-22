@@ -3,11 +3,11 @@
 This repository contains **Mock Tests for the Test of Chinese as a Foreign Language (TOCFL)**.  
 The program runs locally in the terminal and displays questions alongside images (and audio where applicable).
 
-## 📦 What You Need to Download
+## What You Need to Download
 
 Make sure your project folder contains the following:
 
-### 1️⃣ Python (Required)
+### Python (Required)
 - Python **3.9 or newer**
 - Check your version:
   ```bash
@@ -42,11 +42,9 @@ Make sure your files are like this:
         └─ ...
 
 This "Mock Tests" works in:
-> ✅ macOS (recommended)
-
-> ✅ Windows
-
-> ✅ Linux
+> macOS (recommended)
+> Windows
+> Linux
 
 Required Python Libraries:
 > `python3 -m pip install termcolor pillow`
