@@ -53,4 +53,8 @@ Required Python Libraries:
 
 > `pip install PyPDF2` [optional]
 
+Required Audio Libraries:
+
+> https://tocfl.edu.tw/tocfl/index.php/exam/test/page/1?pressBtn=(MockText)
+
 謝謝大家
