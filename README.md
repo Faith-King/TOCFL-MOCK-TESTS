@@ -30,7 +30,7 @@ TOCFL/
 },
 ```
 
-# 📘 UPGEN4.py, TOCFL Question Generator (Stable / Failsafe)
+# 📘 UPGEN4.py - TOCFL Question Generator (Stable / Failsafe)
 
 **UPGEN4.py** is a Python tool designed to automatically generate structured TOCFL mock-test questions from official PDFs.
 It extracts **questions**, **choices**, **answers**, links them with **audio files** and **images**, and outputs a clean, normalized question bank ready for use in testing apps or CLI exam simulators.
@@ -131,7 +131,7 @@ This is intentional. Stability > perfection.
 ## ✅ What This Script Does Well
 
 * Survives ugly PDFs
-* Handles mixed layouts (inline choices, table formats)
+* Handles mixed layouts
 * Distinguishes listening vs reading automatically
 * Never crashes on malformed questions
 * Produces consistent, normalized output
